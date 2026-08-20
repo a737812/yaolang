@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><title>曜语 YaoLang 教程 01: 快速入门</title>
+<style>
+body{font-family:sans-serif;max-width:700px;margin:40px auto;padding:0 20px;background:#0d1117;color:#e6edf3}
+a{color:#58a6ff}h1{color:#f0883e}
+pre{background:#161b22;padding:16px;border-radius:8px;overflow-x:auto}
+.back{margin-bottom:20px}
+</style></head>
+<body>
+<p class="back"><a href="../index.html">← 返回首页</a></p>
+<h1>曜语 YaoLang 教程 01: 快速入门</h1>
+<p>1. 安装: cc -O2 -o yaoc yaolang.c -lm<br>
+2. Hello World (hello.耀):<br>
+   函数 主函数() { _yao_print_s("你好!"); _yao_print(42) }<br>
+3. 编译运行: ./yaoc hello.耀 && ./hello<br>
+4. 输出: 你好! / 42<br>
+5. 查看C代码: ./yaoc hello.耀 -S</p>
+</body></html>

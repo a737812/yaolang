@@ -1,0 +1,10 @@
+======================================
+曜语 YaoLang 教程 08: 构建Android APK
+步骤:
+  1. javac -classpath android.jar MainActivity.java
+  2. java -cp d8.jar com.android.tools.r8.D8 --output apk/ *.class
+  3. zip -> app-unsigned.apk (AndroidManifest.xml + classes.dex)
+  4. keytool -genkey -keystore debug.keystore
+  5. jarsigner -signedjar yaolang_app.apk app-unsigned.apk
+安装: adb install yaolang_app.apk 或复制到手机
+======================================

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><title>曜语 YaoLang 教程 04: 函数与递归</title>
+<style>
+body{font-family:sans-serif;max-width:700px;margin:40px auto;padding:0 20px;background:#0d1117;color:#e6edf3}
+a{color:#58a6ff}h1{color:#f0883e}
+pre{background:#161b22;padding:16px;border-radius:8px;overflow-x:auto}
+.back{margin-bottom:20px}
+</style></head>
+<body>
+<p class="back"><a href="../index.html">← 返回首页</a></p>
+<h1>曜语 YaoLang 教程 04: 函数与递归</h1>
+<p>定义: 函数 add(a:整数, b:整数):整数 { 返回 a + b }<br>
+递归: 函数 fib(n:整数):整数 {<br>
+  若 n <= 1 { 返回 n }<br>
+  返回 fib(n-1) + fib(n-2)<br>
+}<br>
+入口: 函数 主函数() { _yao_print(fib(10)) }</p>
+</body></html>

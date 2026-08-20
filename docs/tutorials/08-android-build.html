@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><title>曜语 YaoLang 教程 08: 构建Android APK</title>
+<style>
+body{font-family:sans-serif;max-width:700px;margin:40px auto;padding:0 20px;background:#0d1117;color:#e6edf3}
+a{color:#58a6ff}h1{color:#f0883e}
+pre{background:#161b22;padding:16px;border-radius:8px;overflow-x:auto}
+.back{margin-bottom:20px}
+</style></head>
+<body>
+<p class="back"><a href="../index.html">← 返回首页</a></p>
+<h1>曜语 YaoLang 教程 08: 构建Android APK</h1>
+<p>步骤:<br>
+  1. javac -classpath android.jar MainActivity.java<br>
+  2. java -cp d8.jar com.android.tools.r8.D8 --output apk/ *.class<br>
+  3. zip -> app-unsigned.apk (AndroidManifest.xml + classes.dex)<br>
+  4. keytool -genkey -keystore debug.keystore<br>
+  5. jarsigner -signedjar yaolang_app.apk app-unsigned.apk<br>
+安装: adb install yaolang_app.apk 或复制到手机</p>
+</body></html>

@@ -1,0 +1,10 @@
+======================================
+曜语 YaoLang 教程 10: 编辑器使用教程
+Android上使用曜语:
+  1. 安装 Operit 或 Termux
+  2. 编译: cc -O2 -o yaoc yaolang.c -lm
+  3. 编写: nano hello.耀
+  4. 编译: ./yaoc hello.耀
+  5. 运行: ./hello
+下载: github.com/a737812/yaolang/releases
+======================================

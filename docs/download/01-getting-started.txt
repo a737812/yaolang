@@ -1,0 +1,9 @@
+======================================
+曜语 YaoLang 教程 01: 快速入门
+1. 安装: cc -O2 -o yaoc yaolang.c -lm
+2. Hello World (hello.耀):
+   函数 主函数() { _yao_print_s("你好!"); _yao_print(42) }
+3. 编译运行: ./yaoc hello.耀 && ./hello
+4. 输出: 你好! / 42
+5. 查看C代码: ./yaoc hello.耀 -S
+======================================

@@ -1,0 +1,9 @@
+======================================
+曜语 YaoLang 教程 07: 内建函数库
+输出: _yao_print_s _yao_print _yao_print_c
+输入: _yao_read_line _yao_read_char
+字符串: _yao_str_len _yao_str_concat _yao_str_cmp _yao_int_to_str
+文件: _yao_file_open _yao_file_read _yao_file_write _yao_file_close
+系统: _yao_exit _yao_clock _yao_rand _yao_srand
+GUI: _yao_x11_init _yao_x11_create_window _yao_x11_draw_text
+======================================

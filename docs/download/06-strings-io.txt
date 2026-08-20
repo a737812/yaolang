@@ -1,0 +1,8 @@
+======================================
+曜语 YaoLang 教程 06: 字符串与文件I/O
+输出: _yao_print_s(s) _yao_print(n)
+输入: _yao_read_line()
+字符串: _yao_str_len(s) _yao_str_concat(a,b) _yao_str_cmp(a,b)
+转换: _yao_int_to_str(n) _yao_str_to_int(s)
+文件: _yao_file_open(path,mode) _yao_file_write(fp,s) _yao_file_close(fp)
+======================================

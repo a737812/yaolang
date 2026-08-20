@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><title>曜语 YaoLang 教程 05: 结构体与枚举</title>
+<style>
+body{font-family:sans-serif;max-width:700px;margin:40px auto;padding:0 20px;background:#0d1117;color:#e6edf3}
+a{color:#58a6ff}h1{color:#f0883e}
+pre{background:#161b22;padding:16px;border-radius:8px;overflow-x:auto}
+.back{margin-bottom:20px}
+</style></head>
+<body>
+<p class="back"><a href="../index.html">← 返回首页</a></p>
+<h1>曜语 YaoLang 教程 05: 结构体与枚举</h1>
+<p>结构 Point { x: 整数  y: 整数 }<br>
+实现 Point {<br>
+  函数 距离(self): 整数 { 返回 self.x*self.x + self.y*self.y }<br>
+}<br>
+枚举 Color { 红 = 0, 绿, 蓝 }<br>
+匹配 c { Color.红 => { _yao_print_s("红") } _ => { } }</p>
+</body></html>
